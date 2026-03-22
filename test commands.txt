@@ -1,0 +1,33 @@
+.\Invoke-AppDeployToolkit.exe -DeploymentType Install -DeployMode Silent
+
+
+.\Invoke-AppDeployToolkit.exe -DeploymentType Uninstall -DeployMode Silent
+
+
+
+
+Get ProductID
+
+$roots = @(
+   'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall',
+   'HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall',
+   'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall'
+ )
+
+ $roots | ForEach-Object {
+   if (Test-Path $_) {
+     Get-ChildItem $_ | ForEach-Object {
+       $p = Get-ItemProperty $_.PSPath -ErrorAction SilentlyContinue
+       if ($p.DisplayName -match '^Notepad\+\+') {
+         [pscustomobject]@{
+          Hive                = $_.PSParentPath
+           DisplayName         = $p.DisplayName
+           DisplayVersion      = $p.DisplayVersion
+           UninstallString     = $p.UninstallString
+          QuietUninstallString= $p.QuietUninstallString
+           PSChildName         = $_.PSChildName
+        }
+       }
+     }
+   }
+ } | Format-List
