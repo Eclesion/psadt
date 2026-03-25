@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_MODULUS=hOFaBvwQM5ol903nDAg3ryrGppg2uIchQkU5NpXLo3ZxFJX0/hGU3m/h/i0d8pnrSCtEA3Z3R2Hf0Rr4LhzvElMBIPyXJwqt9WSfYTsP1vHVQUiozzOC0mlYiIvmLP5LDij7w6D9Ugiyof4NtXxlcGgyyp1ryGe4PSCdk1r3+AY=-->
+<!--_SIG=OrKeYkUDwrG5OdADneKPPXRhE9w9XrI4I9SCuHIi3GZvSmdNzOsWwFoS8IVLYoT8aECJu5inF30qzOP5ZXY5FcNvqTnHMdcLGHoqKawSKRkRyeziubcgQGqHpW1UNgjkuHRi6VEfOY+UnDBWtGRetOycccXc1sOl8JatIleQ/UQ=-->
+<Package Id="Office32WW" Type="MSI" Path="Office32WW.MSI" Version="1.0" ProductCode="{90150000-00C1-0000-1000-0000000FF1CE}" MSIVersion="15.0.4569.1506" ProductLanguage="0" Platform="x64" LocalizationTransform="ShellUI">
+	<Feature Id="ProductNonBootFiles32" Cost="3599008">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="WordPiaReg32" Cost="0">
+		<OptionRef Id="WordPiaReg32"/>
+	</Feature>
+	<Feature Id="AccessPiaReg32" Cost="0">
+		<OptionRef Id="AccessPiaReg32"/>
+	</Feature>
+	<Feature Id="IMNFiles32" Cost="92848">
+		<OptionRef Id="SHAREDFiles"/>
+	</Feature>
+	<Feature Id="OneNotePIAReg32" Cost="0">
+		<OptionRef Id="OneNotePiaReg32"/>
+	</Feature>
+	<Feature Id="VBEPiaReg32" Cost="0">
+		<OptionRef Id="VSCommonPIAHidden"/>
+	</Feature>
+	<Feature Id="ProjectPiaReg32" Cost="0">
+		<OptionRef Id="ProjectPiaReg32"/>
+	</Feature>
+	<Feature Id="VisioPiaReg32" Cost="0">
+		<OptionRef Id="VisioPiaReg32"/>
+	</Feature>
+	<Feature Id="AcePiaReg32" Cost="0">
+		<OptionRef Id="AcePiaReg32"/>
+	</Feature>
+	<Feature Id="SmartTagPiaReg32" Cost="0">
+		<OptionRef Id="SmartTagPiaReg32"/>
+	</Feature>
+	<Feature Id="pptSLfiles32" Cost="130264">
+		<OptionRef Id="SHAREDFiles"/>
+	</Feature>
+	<Feature Id="AlwaysInstalled32" Cost="928640">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="ProductFiles32" Cost="134347726">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="Access32" Cost="0">
+		<OptionRef Id="Access32"/>
+	</Feature>
+	<Feature Id="SetupControllerFiles" Cost="234">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="PowerPointPreviewReg32" Cost="0">
+		<OptionRef Id="PowerPointPreviewReg32"/>
+	</Feature>
+	<Feature Id="XDOCSFiles32" Cost="170168">
+		<OptionRef Id="XDOCSFiles32"/>
+	</Feature>
+	<Feature Id="Publisher32" Cost="0">
+		<OptionRef Id="Publisher32"/>
+	</Feature>
+	<Feature Id="WebDiscussFiles32" Cost="888296">
+		<OptionRef Id="SHAREDFiles"/>
+	</Feature>
+	<Feature Id="TCDRegistration32" Cost="0">
+		<OptionRef Id="TCDRegistration"/>
+	</Feature>
+	<Feature Id="WebDiscussFiles" Cost="2112560">
+		<OptionRef Id="WebDiscussFiles"/>
+	</Feature>
+	<Feature Id="OneNote32Files" Cost="1032752">
+		<OptionRef Id="OneNote32Files"/>
+	</Feature>
+	<Feature Id="PublisherPiaReg32" Cost="0">
+		<OptionRef Id="PublisherPiaReg32"/>
+	</Feature>
+	<Feature Id="OutlookPiaReg32" Cost="0">
+		<OptionRef Id="OutlookPiaReg32"/>
+	</Feature>
+	<Feature Id="WAC_PIARegSPD32" Cost="0">
+		<OptionRef Id="WAC_PIARegSPD32"/>
+	</Feature>
+	<Feature Id="GraphPiaReg32" Cost="0">
+		<OptionRef Id="GraphPiaReg32"/>
+	</Feature>
+	<Feature Id="GrooveShellIntegration32" Cost="1728216">
+		<OptionRef Id="GrooveShellIntegration32"/>
+	</Feature>
+	<Feature Id="Visio32" Cost="0">
+		<OptionRef Id="Visio32"/>
+	</Feature>
+	<Feature Id="Lync64With32Bits" Cost="265344">
+		<OptionRef Id="Lync64With32Bits"/>
+	</Feature>
+	<Feature Id="ExcelPiaReg32" Cost="0">
+		<OptionRef Id="ExcelPiaReg32"/>
+	</Feature>
+	<Feature Id="ExcelPreviewReg32" Cost="0">
+		<OptionRef Id="ExcelPreviewReg32"/>
+	</Feature>
+	<Feature Id="Gimme_OnDemandData" Cost="0">
+		<OptionRef Id="Gimme_OnDemandData"/>
+	</Feature>
+	<Feature Id="PowerPointPiaReg32" Cost="0">
+		<OptionRef Id="PowerPointPiaReg32"/>
+	</Feature>
+	<Feature Id="OfficePiaReg32" Cost="0">
+		<OptionRef Id="dummy_Office_PIA"/>
+	</Feature>
+	<Feature Id="VisioPreviewReg32" Cost="0">
+		<OptionRef Id="VisioPreviewReg32"/>
+	</Feature>
+	<Feature Id="Outlook32Files" Cost="252104">
+		<OptionRef Id="Outlook32Files"/>
+	</Feature>
+	<Feature Id="MsoInstalledPackagesScoped" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="WordPreviewReg32" Cost="0">
+		<OptionRef Id="WordPreviewReg32"/>
+	</Feature>
+	<Feature Id="Project32Files" Cost="317632">
+		<OptionRef Id="Project32Files"/>
+	</Feature>
+	<Feature Id="XDocsPiaReg32" Cost="0">
+		<OptionRef Id="XDocsPiaReg32"/>
+	</Feature>
+	<Feature Id="SetupXmlFiles" Cost="234">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="FormsPiaReg32" Cost="0">
+		<OptionRef Id="FormsPiaReg32"/>
+	</Feature>
+</Package>

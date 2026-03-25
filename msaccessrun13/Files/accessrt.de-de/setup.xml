@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_MODULUS=Fkn/Urs4EOxtX1UhgOZx09YbhSBeuL7l5O5h4uRaZ8A0kkcab72asrLKYRPRqnwkryEMs1xTD21OSkRqcrRBqg5TcOH+8o8lEQPaskmP7N/6smMyOWuIKi17EMwJq+vT0lr51CniAPcJ3ZYQaUCZ3EHmBvEHIVnRPKStOfFVsw0=-->
+<!--_SIG=L3970C5FP9jNCXzBOf3cvNtY6qSFVy/Zmr7pkQ2W69dXeg06aHTPrk1jbKgoaL/Xp9n209tAjLxcHAEXj6iZZWQSb/rw5F2qMX7/5hFPNc6pus6u6cFIPZQKVJrIvcNzKMeXyssP7fTZBjISo2D80TtrrSh4/7E131Lei1d1g1w=-->
+<Setup Id="AccessRT.de-de" Type="AddOn" Keyword="AccessRTMUI" Culture="de-de">
+	<Option Id="AlwaysInstalled" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="Gimme_OnDemandData" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="ProductFiles" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="no">
+		<Option Id="ACCESSFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+	</Option>
+	<PackageRef Path="AccessRTMUI.xml"/>
+	<LocalCache DownloadCode="{90150000-001C-0407-1000-0000000FF1CE}" SkuComponentDirectory="AccessRT.de-de">
+		<File Id="AccessRTMUI.xml" MD5="87AB6DE6E7FD0B8309DD1BAB2E84F5B6" Size="0" RelativeCachePath="AccessRTMUI.xml" RelativeSourcePath="AccessRTMUI.xml"/>
+		<File Id="AccessRTMUI.msi" MD5="F09DE4CE4C9EEBE157C82B5D7E4E09C9" Size="1146880" RelativeCachePath="AccessRTMUI.msi" RelativeSourcePath="AccessRTMUI.msi"/>
+		<File Id="AccRTLR.cab" MD5="EF2981F6C50D99BFE60F90401834796A" Size="1748836" RelativeCachePath="AccRTLR.cab" RelativeSourcePath="AccRTLR.cab"/>
+		<File Id="Setup.xml" MD5="" Size="" RelativeCachePath="Setup.xml" RelativeSourcePath="Setup.xml"/>
+	</LocalCache>
+</Setup>

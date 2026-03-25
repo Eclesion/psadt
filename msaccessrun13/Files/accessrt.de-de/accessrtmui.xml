@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_MODULUS=N2gnQU5NtSduwqhqcE3jKg9RLI5khl4yMrfrP1vsHJoqq0sTDspnHmhwbpx+IdE4XPOWZJJpHJtMSQK0Kb+ZVeSndtvUX6ahW/MTlfh1809dW6HFulwtCBt9G4RwjvuUWgl+QJVYVGFqtCLYnNSRbdGnGycpbxUsYzUHfa2/B20=-->
+<!--_SIG=3vRQePyiAqimbc1q3G/x563JlgqHRAtw5vlsXffBiqQ5/I381f0ctc6gF99AqUxEqYA2I1QMe8c94+nNiiRnIKW/CHWOIy86OHeB59TBN/yu4Pc2tROEWMTeikhbPoJDiG98Yi7I5HlHCBhKKZBDvZt6s9Skhu3Rsipvb5Sq9Go=-->
+<Package Id="AccessRTMUI.de-de" Type="MSI" Path="AccessRTMUI.MSI" Version="1.0" ProductCode="{90150000-001C-0407-1000-0000000FF1CE}" MSIVersion="15.0.4569.1506" ProductLanguage="1031" Platform="x64">
+	<Feature Id="Gimme_OnDemandData" Cost="0">
+		<OptionRef Id="Gimme_OnDemandData"/>
+	</Feature>
+	<Feature Id="ACCESSFilesIntl_1031" Cost="1813040">
+		<OptionRef Id="ACCESSFiles"/>
+	</Feature>
+	<Feature Id="SetupXmlFiles" Cost="468">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="AccessRTNonBootFilesIntl_1031" Cost="2463750">
+		<OptionRef Id="ACCESSFiles"/>
+	</Feature>
+	<Feature Id="SetupControllerFiles" Cost="214782">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="MsoInstalledPackagesScopedIntl_1031" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+</Package>

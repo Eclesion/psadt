@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_MODULUS=1/1O+dRcPF+2oifpQJODCd1MKJvcivLMaHJgastfgxPLWHqB9ug71ZdVf9eHlGvWg+hM/5YCPQNwwZz0TZ5zCKxyKXwNIYZHB95QGpbsjiNtG0XPzwP6BHJVgvFNC63xR3HAec0pxr1utvTRzym0qqI0R9UeRFfzZ8AgFnHi9mY=-->
+<!--_SIG=r8InKZPJWprvNxdjFUHbrtuS6qxOlFD1e06tma6vkibyExctOmiciXDjUpu89AxKhJoupAiraGp5iozVbbIOVKhUbJTBVQQIjNnsGZ94qLiJAmISWCqcyai02eE+BxH+baaHuVHZMKFbE8/AnJELv+LHT0wodj38szKj3az7kCg=-->
+<Package Id="AccessRT" Type="MSI" Path="AccessRT.MSI" Version="1.0" ProductCode="{90150000-001C-0000-1000-0000000FF1CE}" MSIVersion="15.0.4569.1506" ProductLanguage="0" Platform="x64" LocalizationTransform="ShellUI">
+	<Feature Id="InternationalSupportFiles_ArialUni" Cost="23275812">
+		<OptionRef Id="InternationalSupportFiles_ArialUni"/>
+	</Feature>
+	<Feature Id="MSTagPluginsFiles" Cost="337088">
+		<OptionRef Id="MSTagPluginsFiles"/>
+	</Feature>
+	<Feature Id="ProofingParent" Cost="583248">
+		<OptionRef Id="ProofingTools"/>
+	</Feature>
+	<Feature Id="ACCESSNonBootMiscFiles" Cost="11358788">
+		<OptionRef Id="ACCESSFiles"/>
+	</Feature>
+	<Feature Id="AccessLobiDependencies" Cost="1534565">
+		<OptionRef Id="AccessLobiDependencies"/>
+	</Feature>
+	<Feature Id="Access_PIA" Cost="18814858">
+		<OptionRef Id="Access_PIA"/>
+	</Feature>
+	<Feature Id="Graph_PIA" Cost="682684">
+		<OptionRef Id="Graph_PIA"/>
+	</Feature>
+	<Feature Id="NonC2R_ProductFiles" Cost="0">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="Office10Fix1" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="AceFiles" Cost="9095768">
+		<OptionRef Id="AceFiles"/>
+	</Feature>
+	<Feature Id="ACCESSNonBootFiles" Cost="225431750">
+		<OptionRef Id="ACCESSFiles"/>
+	</Feature>
+	<Feature Id="WISPHidden" Cost="2165248">
+		<OptionRef Id="WISPHidden"/>
+	</Feature>
+	<Feature Id="AccessWizards" Cost="19791872">
+		<OptionRef Id="AccessWizards"/>
+	</Feature>
+	<Feature Id="ProductFiles" Cost="136703419">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="DCubeHidden" Cost="0">
+		<OptionRef Id="DCubeHidden"/>
+	</Feature>
+	<Feature Id="OSpp" Cost="4681163">
+		<OptionRef Id="OSpp"/>
+	</Feature>
+	<Feature Id="TextConverters" Cost="149592">
+		<OptionRef Id="TextConverters"/>
+	</Feature>
+	<Feature Id="AccessBDCFiles" Cost="165048">
+		<OptionRef Id="AccessBDCFiles"/>
+	</Feature>
+	<Feature Id="OSetupController" Cost="10839368">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="VBAFiles" Cost="11628488">
+		<OptionRef Id="VBAFiles"/>
+	</Feature>
+	<Feature Id="SetupControllerFiles" Cost="10839836">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="THEMESFiles" Cost="1168160">
+		<OptionRef Id="THEMESFiles"/>
+	</Feature>
+	<Feature Id="dummy_Office_PIA" Cost="16900710">
+		<OptionRef Id="dummy_Office_PIA"/>
+	</Feature>
+	<Feature Id="MSSOAP3" Cost="836496">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="SetupExeArpEntry" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="AceOdbc" Cost="0">
+		<OptionRef Id="AceFiles"/>
+	</Feature>
+	<Feature Id="ACCESSSharepointISAM" Cost="314088">
+		<OptionRef Id="ACCESSFiles"/>
+	</Feature>
+	<Feature Id="SetupExeAddRegistry" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="Ace_PIA" Cost="106208">
+		<OptionRef Id="Ace_PIA"/>
+	</Feature>
+	<Feature Id="GraphicsFiltersFile" Cost="0">
+		<OptionRef Id="GraphicsFiltersFile"/>
+	</Feature>
+	<Feature Id="GRAPHFiles" Cost="6134024">
+		<OptionRef Id="GRAPHFiles"/>
+	</Feature>
+	<Feature Id="MsoCommonShellHandler" Cost="934616">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="DocumentImagingUtils" Cost="35297374">
+		<OptionRef Id="DocumentImagingUtils"/>
+	</Feature>
+	<Feature Id="ProductFiles_B2TR" Cost="80857014">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="CARegistryFeature" Cost="0">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="Gimme_OnDemandData" Cost="0">
+		<OptionRef Id="Gimme_OnDemandData"/>
+	</Feature>
+	<Feature Id="ACCESSFiles" Cost="28686142">
+		<OptionRef Id="ACCESSFiles"/>
+	</Feature>
+	<Feature Id="WixSwidTag" Cost="1055">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="OSpp_Core" Cost="7372649">
+		<OptionRef Id="OSpp_Core"/>
+	</Feature>
+	<Feature Id="InternationalSupportFiles_JPN" Cost="165248">
+		<OptionRef Id="InternationalSupportFiles_JPN"/>
+	</Feature>
+	<Feature Id="LISTFiles" Cost="3917536">
+		<OptionRef Id="LISTFiles"/>
+	</Feature>
+	<Feature Id="MsoInstalledPackagesScoped" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="SetupXmlFiles" Cost="468">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="WISPFiles" Cost="2165248">
+		<OptionRef Id="WISPFiles"/>
+	</Feature>
+	<Feature Id="TranslationCore" Cost="259832">
+		<OptionRef Id="TranslationCore"/>
+	</Feature>
+</Package>
